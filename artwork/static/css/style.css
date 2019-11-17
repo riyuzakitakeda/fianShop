@@ -1,0 +1,23 @@
+.hello{
+    color: red;
+	font-family: "arial";
+}
+.navbar .active{
+    font-weight: bold;
+}
+
+.navbar .nav-item .nav-link{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.kontenpad{
+    padding: 20px 0 20px 0
+}
+
+.toppad{
+    padding-top: 100px;
+}
