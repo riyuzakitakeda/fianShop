@@ -1,7 +1,7 @@
-.hello{
-    color: red;
-	font-family: "arial";
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
 }
+
 .navbar .active{
     font-weight: bold;
 }
@@ -92,4 +92,19 @@ body{
   background-color: black;
   opacity: 0.4;
   z-index: 1;
+}
+
+.dropdown {
+    .dropdown-menu {
+        transition: all 0.5s;
+        overflow: hidden;
+        transform-origin: top center;
+        transform: scale(1,0);
+        display: block;
+    }
+    &:hover {
+        .dropdown-menu {
+            transform: scale(1);
+        }
+    }
 }
