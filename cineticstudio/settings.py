@@ -25,7 +25,7 @@ SECRET_KEY = 'ga9dolc)qfz+_r(rn()mxv3n+gxa#cpy!+^^k5(s1znlb3%5z0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['guarded-ravine-58433.herokuapp.com', '127.0.0.1', 'localhost','cinetic.cineticstudio.com','cineticstudio.com', 'www.cineticstudio.com']
+ALLOWED_HOSTS = ['guarded-ravine-58433.herokuapp.com', '127.0.0.1', 'localhost','cinetic.cineticstudio.com', 'info.cineticstudio.com', 'www.cineticstudio.com']
 
 
 # Application definition
