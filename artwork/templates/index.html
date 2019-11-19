@@ -1,15 +1,26 @@
 {% extends 'base.html' %}
-
+{% load static %}
 
 {% block content %}
-{% for home in homes %}
-<div class="container">
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="{{ home.home_video_url }}" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+<!--    <div class="embed-responsive embed-responsive-16by9">-->
+<!--        <iframe width="560" height="315" src="{{ home.home_video_url }}" frameborder="0"-->
+<!--                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"-->
+<!--                allowfullscreen></iframe>-->
+<!--    </div>-->
+    <!-- Background video -->
+    <div class="video-background-holder">
+        <div class="video-background-overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="{% static 'img/home.mp4' %}" type="video/mp4">
+        </video>
+        <div class="video-background-content container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+<!--                    <h1 class="display-4">Cinetic Studio</h1>-->
+                    <img style="width: 200px" src="{% static 'img/logo.png' %}">
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-{% endfor %}
 {% endblock %}
 
