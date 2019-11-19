@@ -25,7 +25,7 @@ SECRET_KEY = 'ga9dolc)qfz+_r(rn()mxv3n+gxa#cpy!+^^k5(s1znlb3%5z0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['guarded-ravine-58433.herokuapp.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['guarded-ravine-58433.herokuapp.com', '127.0.0.1', 'localhost','cinetic.cineticstudio.com','cineticstudio.com']
 
 
 # Application definition
@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'artwork.apps.ArtworkConfig',
 
@@ -115,7 +116,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 
 # Heroku: Update database configuration from $DATABASE_URL.

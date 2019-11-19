@@ -16,12 +16,13 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 </head>
 <body>
+<!--
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0" id="navbarNav">
         <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0 menu">
             <li class="nav-item {% if cur == 'homes' %}active{% endif %}">
                 <a class="nav-link" value="" href="/">home <span class="sr-only">(current)</span></a>
@@ -37,18 +38,56 @@
             </li>
         </ul>
 
-        <a class="navbar-brand justify-content-center" href="#">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/WPVG_icon_2016.svg/1024px-WPVG_icon_2016.svg.png" width="30" height="30" class="d-inline-block align-top"
-             alt="">
-        Cinetic
+        <a class="navbar navbar-brand justify-content-center" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/WPVG_icon_2016.svg/1024px-WPVG_icon_2016.svg.png"
+                 width="30" height="30" class="d-inline-block align-top"
+                 alt="">
+            Cinetic
         </a>
 
-        <ul class="nav navbar-nav">
+        <ul class="navbar navbar-nav navbar-expand-sm">
             <li class="nav-item"><a class="nav-link" href="#">FB</a></li>
             <li class="nav-item"><a class="nav-link" href="#">IG</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Youtube</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Cloud</a></li>
         </ul>
+    </div>
+</nav> -->
+<nav class="navbar navbar-dark navbar-expand-md justify-content-between" style="background-color: #0000">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+            <ul class="navbar-nav">
+                <li class="nav-item {% if cur == 'homes' %}active{% endif %}">
+                    <a class="nav-link" value="" href="/">home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item {% if cur == 'artwork' %}active{% endif %}">
+                    <a class="nav-link" value="/artwork" href="/artwork">artwork</a>
+                </li>
+                <li class="nav-item {% if cur == 'profile' %}active{% endif %}">
+                    <a class="nav-link" value="/profile" href="/profile">profile</a>
+                </li>
+                <li class="nav-item {% if cur == 'contact' %}active{% endif %}">
+                    <a class="nav-link" value="/contact" href="/contact" tabindex="-1">contact</a>
+                </li>
+                </ul>
+        </div>
+        <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/WPVG_icon_2016.svg/1024px-WPVG_icon_2016.svg.png"
+                 width="30" height="30" class="d-inline-block align-top"
+                 alt="">
+            Cinetic</a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">IG</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Youtube</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Cloud</a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
     </div>
 </nav>
 <div id="content">
