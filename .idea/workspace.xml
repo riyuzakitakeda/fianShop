@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4613081e-310a-4b52-aafd-f8479a9d1c53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artwork/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artwork/templates/artwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/artwork.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artwork/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artwork/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artwork/templates/contentart.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/contentart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artwork/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artwork/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/profile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
