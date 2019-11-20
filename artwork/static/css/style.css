@@ -102,3 +102,8 @@ body{
 .w-link {
     color: #ffff;
 }
+
+.nothome {
+    padding: 5% 15% 2% 15%;
+    color: #FFFF
+}
