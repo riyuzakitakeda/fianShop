@@ -9,8 +9,14 @@ def index(request):
 
 
 def artwork(request):
+    # x = request.GET.get('artwork', '')
     artworks = Artwork.objects.all()
     return render(request, 'artwork.html', {'artworks': artworks, 'cur': 'artwork'})
+
+
+def contentart(request, artwork):
+    contentarts = Artwork.objects.all()
+    return render(request, 'contentart.html', {'contentarts': contentarts, 'artwork': artwork})
 
 
 def profile(request):

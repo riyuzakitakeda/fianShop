@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container" style="padding: 5% 15% 0 15%; color: #FFFF">
+    {% for art in contentarts %}
+        {% if art.judul == artwork %}
+            <h3 style="color: white">{{ art.judul }}</h3>
+            <div class="container" style="padding: 5% 0 0 0">
+                {% if art.video_url != "0" %}
+                <iframe src="{{ art.video_url }}"
+                        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                        frameborder="0"
+                        width="100%"
+                        height="400px"
+                        allowfullscreen></iframe>
+                {% else %}
+                <img src="{{ art.image_url }}" height="auto" class="card-img" alt="">
+                {% endif %}
+            </div>
+            <div class="container" style="padding: 5% 5% 0 5%; font-size: 14px;">
+                <p style="color: white">{{ art.deskripsi }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+{% endblock %}

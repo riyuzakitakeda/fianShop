@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4613081e-310a-4b52-aafd-f8479a9d1c53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/artwork/templates/contentart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artwork/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artwork/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artwork/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artwork/templates/artwork.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/artwork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artwork/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artwork/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -24,6 +29,7 @@
   </component>
   <component name="ProjectId" id="1TfzzZTSYz2gfsggZqBA5xdNIWj" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/artwork" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>

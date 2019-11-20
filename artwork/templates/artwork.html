@@ -17,8 +17,10 @@
                 <img src="{{ artwork.image_url }}" height="200px" class="card-img" alt="">
                 {% endif %}
                 <div class="card-body">
-                    <h5 class="card-title" style="font-size: 15px">{{artwork.judul}}</h5>
-<!--                    <p class="card-text">{{artwork.deskripsi}}</p>-->
+                    <a class="w-link" href="{{ artwork.judul }}">
+                        <h5 class="card-title" style="font-size: 15px">{{artwork.judul}}</h5>
+                    </a>
+                    <!--                    <p class="card-text">{{artwork.deskripsi}}</p>-->
                 </div>
                 <!--            <div class="box-btn">-->
                 <!--                <a href="#">more</a>-->
