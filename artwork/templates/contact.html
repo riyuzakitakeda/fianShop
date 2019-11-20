@@ -7,10 +7,11 @@
     {% for contact in contacts %}
     <div class="container" style="padding: 20px 0 20px 0">
         <p>
-            Hello am {{ contact.name }}
+            {{ contact.kontak_deskripsi }}
         </p>
         <p>
             Contact me here: <br>
+            {{ contact.name }} <br>
             Phone: {{ contact.phone }} <br>
             e-mail: {{ contact.email }}
         </p>
