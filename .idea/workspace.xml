@@ -6,8 +6,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/VianShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VianShop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/artwork/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artwork/templates/contentart.html" beforeDir="false" afterPath="$PROJECT_DIR$/artwork/templates/contentart.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+>>>>>>> 95ab9d75b381a9332749b1fdc8e7c2378c000fe7
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
