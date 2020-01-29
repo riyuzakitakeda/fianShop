@@ -7,6 +7,13 @@ class Artwork(models.Model):
     image_url = models.CharField(max_length=1000)
     image2_url = models.CharField(max_length=1000)
     image3_url = models.CharField(max_length=1000)
+    image4_url = models.CharField(max_length=1000)
+    image5_url = models.CharField(max_length=1000)
+    image6_url = models.CharField(max_length=1000)
+    image7_url = models.CharField(max_length=1000)
+    image8_url = models.CharField(max_length=1000)
+    image9_url = models.CharField(max_length=1000)
+    image10_url = models.CharField(max_length=1000)
     deskripsi = models.TextField(max_length=2000)
 
 
